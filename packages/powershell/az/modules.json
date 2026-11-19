@@ -1,0 +1,822 @@
+{
+  "Az": {
+    "version": "16.3.0",
+    "hash": "sha512-B3hhX/GJm8mkj165XYxkQwuJWKs5/PuysIm3lKvHrhcBtm3aqUX2JB6O/RIbJ8PFxsyaBPrdUGuwVmSYtualKg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3",
+      "Az.Advisor": "3.0.0",
+      "Az.Aks": "7.2.1",
+      "Az.AnalysisServices": "1.3.0",
+      "Az.ApiManagement": "4.2.0",
+      "Az.App": "2.0.1",
+      "Az.AppConfiguration": "2.2.0",
+      "Az.ApplicationInsights": "3.0.0",
+      "Az.ArcResourceBridge": "2.0.0",
+      "Az.ArizeAI": "1.0.0",
+      "Az.Attestation": "3.1.0",
+      "Az.Automanage": "2.0.0",
+      "Az.Automation": "1.12.1",
+      "Az.Batch": "4.1.1",
+      "Az.Billing": "2.3.0",
+      "Az.Cdn": "6.2.0",
+      "Az.CloudService": "3.0.0",
+      "Az.CognitiveServices": "1.17.1",
+      "Az.Compute": "11.9.0",
+      "Az.ConfidentialLedger": "2.0.0",
+      "Az.ConnectedMachine": "1.1.1",
+      "Az.ContainerInstance": "5.0.0",
+      "Az.ContainerRegistry": "5.1.0",
+      "Az.CosmosDB": "1.22.0",
+      "Az.DataBoxEdge": "1.3.0",
+      "Az.DataFactory": "1.20.1",
+      "Az.DataLakeAnalytics": "1.2.0",
+      "Az.DataLakeStore": "1.6.0",
+      "Az.DataMigration": "1.1.1",
+      "Az.DataProtection": "3.0.1",
+      "Az.DataShare": "1.2.0",
+      "Az.DataTransfer": "1.0.0",
+      "Az.Databricks": "2.0.0",
+      "Az.DesktopVirtualization": "6.0.0",
+      "Az.DevCenter": "3.0.0",
+      "Az.DevTestLabs": "1.2.0",
+      "Az.DeviceRegistry": "1.0.0",
+      "Az.Dns": "2.2.0",
+      "Az.DnsResolver": "2.0.0",
+      "Az.ElasticSan": "1.7.0",
+      "Az.EventGrid": "2.2.0",
+      "Az.EventHub": "5.6.0",
+      "Az.Fabric": "1.0.0",
+      "Az.FileShare": "1.0.0",
+      "Az.FirmwareAnalysis": "1.0.0",
+      "Az.FrontDoor": "2.3.0",
+      "Az.Functions": "5.0.1",
+      "Az.HDInsight": "6.5.0",
+      "Az.HealthDataAIServices": "1.0.0",
+      "Az.HealthcareApis": "3.0.0",
+      "Az.IotHub": "2.9.2",
+      "Az.KeyVault": "6.6.1",
+      "Az.Kusto": "3.0.0",
+      "Az.LambdaTest": "1.0.0",
+      "Az.LoadTesting": "2.0.0",
+      "Az.LogicApp": "1.7.0",
+      "Az.MachineLearning": "1.3.0",
+      "Az.MachineLearningServices": "2.0.0",
+      "Az.Maintenance": "1.6.0",
+      "Az.ManagedServiceIdentity": "2.0.0",
+      "Az.ManagedServices": "4.0.0",
+      "Az.MarketplaceOrdering": "2.2.0",
+      "Az.Migrate": "3.0.0",
+      "Az.Monitor": "8.0.0",
+      "Az.MySql": "2.0.0",
+      "Az.NetAppFiles": "1.4.1",
+      "Az.Network": "8.2.0",
+      "Az.NetworkCloud": "3.0.0",
+      "Az.Nginx": "2.0.0",
+      "Az.NotificationHubs": "1.3.0",
+      "Az.OperationalInsights": "3.4.1",
+      "Az.Oracle": "2.0.0",
+      "Az.PolicyInsights": "2.0.0",
+      "Az.PowerBIEmbedded": "2.2.0",
+      "Az.PrivateDns": "1.3.0",
+      "Az.RecoveryServices": "7.14.1",
+      "Az.RedisCache": "1.12.0",
+      "Az.RedisEnterpriseCache": "2.0.0",
+      "Az.Relay": "3.0.0",
+      "Az.ResourceGraph": "1.3.0",
+      "Az.ResourceMover": "2.0.0",
+      "Az.Resources": "10.2.0",
+      "Az.Security": "1.10.0",
+      "Az.SecurityInsights": "4.0.0",
+      "Az.ServiceBus": "4.3.0",
+      "Az.ServiceFabric": "5.2.0",
+      "Az.SignalR": "3.0.0",
+      "Az.Sql": "7.1.0",
+      "Az.SqlVirtualMachine": "3.0.0",
+      "Az.StackHCI": "3.0.0",
+      "Az.StackHCIVM": "2.0.0",
+      "Az.Storage": "9.7.2",
+      "Az.StorageAction": "2.0.0",
+      "Az.StorageDiscovery": "1.0.0",
+      "Az.StorageMover": "2.1.0",
+      "Az.StorageSync": "2.6.0",
+      "Az.StreamAnalytics": "3.0.0",
+      "Az.Support": "2.1.0",
+      "Az.Synapse": "3.3.0",
+      "Az.TrafficManager": "1.4.0",
+      "Az.Websites": "4.1.0",
+      "Az.Workloads": "2.0.0"
+    }
+  },
+  "Az.Accounts": {
+    "version": "5.5.3",
+    "hash": "sha512-HD+YNZU1SgsBJ3h5ZVEBuZl7UH3uyCJZ3egN6Sr/Ycq6371y3aqpHdMDtNoMhFuKaqLlXRN95IIn9Fq/7ntOpQ==",
+    "dependencies": {}
+  },
+  "Az.Advisor": {
+    "version": "3.0.0",
+    "hash": "sha512-/DaLIwdlRBjngvuwvqGUkvIZjod21OHRMGN4/0CgkA1St1zS6cV+jInAoXikSxeVJmOxraHLIl+yR9vuTirHtw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Aks": {
+    "version": "7.2.1",
+    "hash": "sha512-3HYFWmiKsSV8Y6AI6HgjjJQapxr0gRlCaWYG/cvhhPpbhE7OOBX9HS4hI1lDHnW8cVnEZMH5hhMrkvapN5EbHA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.AnalysisServices": {
+    "version": "1.3.0",
+    "hash": "sha512-z1D45IcuJUYUkgdi/RMTugDL8FL1EtxbP7eKzHakkaMiWOcTRXHHlEXMM2F3x5Qp+/KDu7eNYpxRNUMd+AOzjg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ApiManagement": {
+    "version": "4.2.0",
+    "hash": "sha512-IzCJCdlIHJ3JxFoCkqoAIpE9qQKVIw3yts/8VBXtGaPGrdg0cGyMTnYSpAGGDtXCQRyo8qvkTwhLTQX1sPOc9g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.App": {
+    "version": "2.0.1",
+    "hash": "sha512-OVjNmbrHfsyiFTu3QXkt/qYWJFpvtlL0bgIQL0tNCcI6HB8gkdTz2xRzZLMj6RLolD4LA9O9nG1aKx44kiioTw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.AppConfiguration": {
+    "version": "2.2.0",
+    "hash": "sha512-TWLbHFnX2wUY08GMdwdgfKHRGtVOxJdqfL0pgwfjMIWowiLr8WrKSNiPSuYNhNHsCHiiRBlcrZrMmueNmo5e2g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ApplicationInsights": {
+    "version": "3.0.0",
+    "hash": "sha512-u8y//KPnQJn5Z+9UWsyB+lCfLYlUieN7pnqeil16p/GWnxrD7JkfBLKJHQbfuOzHSIXLuH9dtsEPrvNajBemfA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ArcResourceBridge": {
+    "version": "2.0.0",
+    "hash": "sha512-GXcS8zEkbaTy0ncpa9LNBSZ651NSSJO6FK7uRo5ejquDD+c95oCtofFO8hvVhvnBr6UKew+yWafzMHo97gc3hw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ArizeAI": {
+    "version": "1.0.0",
+    "hash": "sha512-g5hapvDEtx7zuKaBz8w9h2ZVmzHGCBVzHnooWRc9AGYeovmjtsy2OM+oQvgPoyPE+XWeof1r5W4g1d8DFXM7fg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Attestation": {
+    "version": "3.1.0",
+    "hash": "sha512-JN9Bk8ACoEViwscZAXvlxa4lPaleoLP+Wdytu6Gwx9GyLyoJ/Mm1XpAG4jaurQQwG8rdTpMmf/uymHLjuxH2KQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Automanage": {
+    "version": "2.0.0",
+    "hash": "sha512-hpj3V0r9uQtjkKveSNCnIJS8ODPTxgBeG7CgZhss04AgX05rM2+R91qWLcCB5e1m9SjqN1PV5xGDP9nYrTzMWA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Automation": {
+    "version": "1.12.1",
+    "hash": "sha512-26CpfmSrX+utNltEquqRTGr7tKsV9d/SUKFvqdFn3NyIWSeGiFcUZS5YoUUPqmwnwYgNeqoFY5QXs03nC4CzJQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Batch": {
+    "version": "4.1.1",
+    "hash": "sha512-4LQFmCM7NsK2V/bLTcpbB/ZwfH1vH9coyyEOGb8mVBC0SryARDahzzMMMgTLVNodJEYcmmL3j9xMBy+QEgrZdA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Billing": {
+    "version": "2.3.0",
+    "hash": "sha512-vsX3cgVCmflPjGjyWJy4KyXTNCjBpTntv7opxJBnJoYYZI7H7B00O7W1NaLKXZiw2aJZ1ZqbOKabpW9SbSKvRA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Cdn": {
+    "version": "6.2.0",
+    "hash": "sha512-1uwizrJfNnYzXGpS+slohFCHhd5iHjTnnuUysjdI9YVzgR/oosjJm4h4HVxpqprVAi6iRQLaJX3nhlupeQxT1w==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.CloudService": {
+    "version": "3.0.0",
+    "hash": "sha512-8K74WwstRY1aY1gL6GD0weVLEGDN6wMsPaL2ShBZGewUZLD6jn8Kg8dKGG7JIB3TrCnSP6wCIXLDDnuODsHtSQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.CognitiveServices": {
+    "version": "1.17.1",
+    "hash": "sha512-axfR2EkR+bVaCwzK8K9pTeUFW+mbjept4M4ykmJBv5IfUetO4wXVUxd/xRAGogPsvosSAM0JeaEi/BOjDTEPvg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Compute": {
+    "version": "11.9.0",
+    "hash": "sha512-edMkA0TIXNHNS63vvB4xPrJEGHUCF0cgIv1waz9JVbjDAhjm7hV4hIzPZKQjnEAHwkyL5Z7gbmu36Kniu0GO3g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ConfidentialLedger": {
+    "version": "2.0.0",
+    "hash": "sha512-/EVXEiwUujUU1J5GGmshq5PCQGbcngXlLpOpWsjQVKImSLhv3NaRLx47p4DFzYwbZbCmWTQZILZY20GM0Btk5Q==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ConnectedMachine": {
+    "version": "1.1.1",
+    "hash": "sha512-r4Bqoa/3NbNV4C1bN6ot0979XnFBjz4Higr53IE8INZltuW8PAYG01bGZ+StkMRbEz7Z6r2w+/+KIwucEJlaOg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ContainerInstance": {
+    "version": "5.0.0",
+    "hash": "sha512-PLa76quonDFqqQtQJn46bRN2+q3HX7qQrsBTWPZvl2mm0J9ndOdl/VK30FDkn7jbGZmWgYihIkqhkgYwceBlBQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ContainerRegistry": {
+    "version": "5.1.0",
+    "hash": "sha512-CfTPynCWl4CsGKaNYJEHemUqOyaNX72xM+3mdVyFWBY1JozYouBIL92PIOeXk/ooxcEhLKa9uj9w7D9dXs+uzA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.CosmosDB": {
+    "version": "1.22.0",
+    "hash": "sha512-wJhlEETCraaWOxun905SX+2cGlRR+MfBjXs0IfTUIRt3rqrzqyrdBwjoqalu17dlIfZrdlB4nhPqpx6zNcQpZg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataBoxEdge": {
+    "version": "1.3.0",
+    "hash": "sha512-smOZH5M9N3uoQM5cjJS6EYsira1kZr3teUlPSTk1SrGpCsZYNgbTR4db7aIOKuiVRLGa3m2VgyGLwBpbNAYsDQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataFactory": {
+    "version": "1.20.1",
+    "hash": "sha512-SrFFtG0fbW9OlbKJAE9w7QRTsSapxW110ph05UiPsbgEpaA5MOhgdDZjH2A20VzrfAkvMDsyImspHUkevWtKpg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataLakeAnalytics": {
+    "version": "1.2.0",
+    "hash": "sha512-8E0T6JX8BWwmYgYnPYPoNNwz99pLQoNEx9PhTfNv0QTMV6oFS6cF3J4F2Ygtf9wCJN1pmm68N8zi2VuIYgPGrg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataLakeStore": {
+    "version": "1.6.0",
+    "hash": "sha512-3LNlnhokS7yrYZ0tpU6ng8OVLE0b937kjPMYWrPtP3hMAZ91SDfpHEfQF7WKloyGJF5Ll8uLUqKCiITs3I4CRA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataMigration": {
+    "version": "1.1.1",
+    "hash": "sha512-po2nmUGosmrTq4qcxGMzbMHWD88UlyUmmXxYE+D5VjLDtl0QNZ5XPNDJ5Ldyp+sFVUjfW2OGF30Cvj+ieZDlng==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataProtection": {
+    "version": "3.0.1",
+    "hash": "sha512-ruj0fDC8fhWaIGga2Esmz8bKG2xxLtVOdAcTWW2oLcUg1bUQ9Q27afAqx9ZZ2ujQ2hJDTptbREyXh0AOYtJeOg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataShare": {
+    "version": "1.2.0",
+    "hash": "sha512-PrgNlmu+op+Rr4lATnCEen1Xi4GroKk8J8LTCg6SY4UITwlk44gi8nc59Vuh8Tm0SS1dNPtbnI7ralPYXi/BFQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DataTransfer": {
+    "version": "1.0.0",
+    "hash": "sha512-CAnojVIH4c1M/0VMozLklbY8POLjBfpOcOqpqdjkVHRJMLmnWKD+dC2RngSnTqdfqcG66yU8ih2tmYdh63PbRA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Databricks": {
+    "version": "2.0.0",
+    "hash": "sha512-CoQ6PPy4JTVX3rGgsi81vDXtnIfmKGseGOPKnan+qFG7UBtEe8/nmdA5yoTQvcJMwMz4dZpyXeGrclfgjDvhEQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DesktopVirtualization": {
+    "version": "6.0.0",
+    "hash": "sha512-XA9eI7I2VJTROV1X605WyVAbWnGgHhoJtBsgMvprU/ofTjvVGPt+LXqKmfOxwtRHbmt+MAgBnTJTOdG4ctwYVw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DevCenter": {
+    "version": "3.0.0",
+    "hash": "sha512-TxgJJ+4v8vtf0RZN90q/lPdDoqrl1DT6ox8DPH51CwmboAKHEpHjzJWfgRki3v+aQML9/1JsTzRXF0aXpV/exA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DevTestLabs": {
+    "version": "1.2.0",
+    "hash": "sha512-4pn8fW0En99455lOJ281ulElHofdFqgRA8g5w1Hioj2fqR9fyYP1XYyDUlwyoiNmVB+qVXyJRmdJjalao19MtQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DeviceRegistry": {
+    "version": "1.0.0",
+    "hash": "sha512-sA6ybeph0lqbGcS5TydMxamTjQtQxYOKM6TNuOq683ACUr/bhm5J97sD7dgwSZKADHlxbkI1vaclFoq0WFuXKw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Dns": {
+    "version": "2.2.0",
+    "hash": "sha512-Cgt22yojHI3VFGMoxYX7vyaGQ8FT6Ly3tVcotr3hWdDgt28ojjak5BLZpKag3cXUombFcnyk8yVn4Zfrd5WM3w==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.DnsResolver": {
+    "version": "2.0.0",
+    "hash": "sha512-ZJ41BxUZcY7x4r8LwUjcAU4ocqy3Mysp50MgGL/uUhw6xai1gUg2Y+VgbGPeqPnQtZq/SW5L96i3fYtI9zuVWQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ElasticSan": {
+    "version": "1.7.0",
+    "hash": "sha512-9km1DcueEOllxCiOHAYXtn53zuqadRvamMAL7yNoSzMaUf6w1V+FT/dHZusZbC1OO/a1Vn6MbZppQLKzY0u2vg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.EventGrid": {
+    "version": "2.2.0",
+    "hash": "sha512-AtVWzS4qX44vmHV01i8bHitXrS7onXkDiG966EQhhmpOMeQMwd8jh+NvsBkmq7wvXT2I9qrCsjt3T2B97mdvew==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.EventHub": {
+    "version": "5.6.0",
+    "hash": "sha512-wa+VUB0JdTr587cxYsK3eoPpjTjFFW8PZzBAbk1P4ar3nb9K+0hIeoz0j/83fskjIPhP4SQGz4ql14FOsGNwKg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Fabric": {
+    "version": "1.0.0",
+    "hash": "sha512-QXxjUSsEaES3OpWmLdAIsls96tAfM/BLjZz0KD22nREv55wGQkY77u5MZcVQRBsGXtAW3D7LnrCbySunddT1Rg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.FileShare": {
+    "version": "1.0.0",
+    "hash": "sha512-vtiFxELlGNatTdLwTWas9WrqprsnSs1hj9OmugN3XEFxRibbwH9Z7iUv5svanq40DPXzhz5eeyJVisonn8xWNw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.FirmwareAnalysis": {
+    "version": "1.0.0",
+    "hash": "sha512-IxlPhiAd/ihEiznFEOudcx6Khw/b7YpYI6XEHd1HrvXDGzZVvwi3tN+YqSJu0oy+v9oL/gzZ9vxFFmNQ2HvFbQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.FrontDoor": {
+    "version": "2.3.0",
+    "hash": "sha512-a3XxjHwocetb8G3Zw1z9HQizKMperYxK0ZVUsKxe/xmFJOjWLr/mHhBE2oL/ZSzjmWcdAxW15KLvOSWXZlfOcw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Functions": {
+    "version": "5.0.1",
+    "hash": "sha512-AB0EVXk0Mi910ONmfO33FXhhpt6SATqIzsZKShFvfTiBTn4KikC92Sf+OBb52i0zGZkicpYgr5zVrMm/ENkFNA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.HDInsight": {
+    "version": "6.5.0",
+    "hash": "sha512-L5QU6lFlddA2e6kleUtfYK6ElB56vneiXX/PtaMdfn8/xiiXNMWhigAQ5dhZmAZepcH3wTiJGpQnEcNR7xG0Kg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.HealthDataAIServices": {
+    "version": "1.0.0",
+    "hash": "sha512-HwLEjTvWEyLeu0SE3zmg3b4apS/k3z81vmCuNQ+MGjqAN5wc+NiClJF/6rfIyAN9neHvUrfBo3sagrbDZgRpDg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.HealthcareApis": {
+    "version": "3.0.0",
+    "hash": "sha512-b0BnJuTt4FbMzoTThPhBltw9DXjFe5E8hODN8veKo9Y6UOIelw5myv6j0at+ZZKIRcROsBhMJHx+gbiRiNYzUQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.IotHub": {
+    "version": "2.9.2",
+    "hash": "sha512-nOvX+b4wsWXrX+TeWCCdJRxq5ZnYpn4lBgmmfkzIOLTGUfOOtF2A5VN9MV0/4v6eTFsL4b1Pikhr2nVTkSkoTQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.KeyVault": {
+    "version": "6.6.1",
+    "hash": "sha512-TtwzYZZ8UAMHrHJOhP6mpDh0E+OwJLjHPlwARYBGVmHImiINrkdLPVTNaKnkfJFnSRVT3PMprLxCeUyiAOvYoQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Kusto": {
+    "version": "3.0.0",
+    "hash": "sha512-HzfJRRYAmY0vz46nM8gvFvWltFyTYFKZcBlz/nirZ4ds4ODd8aa2kN5J+TnrT+PY0ppZ8WHqlxkK6Oq2mpBdtQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.LambdaTest": {
+    "version": "1.0.0",
+    "hash": "sha512-wdpVJTiDZNZZoyPlUUVEBexT+hiMEl5H5QSn4JIBSrmIEUTn+Z2Ijx3bpWFffAUAXXTh35ddWae3Wo/gVBFBvg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.LoadTesting": {
+    "version": "2.0.0",
+    "hash": "sha512-hyfv15K/nD4nnbS7K1Jv71EbhGwC5SV1wPIuaPinX9/YJblkb3PXbqv0Y6ILd5rRoCGrYCmsj6sdvrHQ7EC55w==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.LogicApp": {
+    "version": "1.7.0",
+    "hash": "sha512-NZ6tODvF+Oz/H9BLBYEkyTJldShyilmhA7tqwa0wNhDMx6Pzen+wcNfYGjcL1azYqhpHWH1Hswq9GIV1+0LegQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.MachineLearning": {
+    "version": "1.3.0",
+    "hash": "sha512-nJv4rSsCm9yBBoNaHgvX24kFbBV88W6niDInNudRld2qaWIKlSpvoMxv1VihM0aE/uMDq3k3QkUYcW8ETA+r6g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.MachineLearningServices": {
+    "version": "2.0.0",
+    "hash": "sha512-RnkzLwMSVor2Bk459OAVpGMrJUG3Nv+rUbgeiL40brYRMVF9G/atLVvegqXELz2gdPH7nAwvUJJ3gxpJZHypgg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Maintenance": {
+    "version": "1.6.0",
+    "hash": "sha512-LqQVbwUdS6+mXAKgVhSrGy65yYrCn9xOIDxWfOA0B2WbbxCEMyMvuOQYU4MNv8FL79SwXDFbHVco9JcUeK9JVQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ManagedServiceIdentity": {
+    "version": "2.0.0",
+    "hash": "sha512-R97XhyN85tZf/puvcUAUC+R/M+7wAAxXj6rtR5Ij44gC6Cz9GfxO9ACWzUJ91AV/mVZ+vP4iym75bmBM2+vUPA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ManagedServices": {
+    "version": "4.0.0",
+    "hash": "sha512-QfWCiRsv5d7meCEriiCjvggvCwBvaVqb7Fn8zZLs6MA+xccqNZTFMuyaj8BusuZn8eoy35sa24MFiDlAOQxoEw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.MarketplaceOrdering": {
+    "version": "2.2.0",
+    "hash": "sha512-vn1UyONL47PgAvE9GFWfkbCdTOrFyoQUFCrkHQTiXwaNiQLz2Z0cM1ksUaMyrZpzSASqJDcx3bPI69o5N3TVgQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Migrate": {
+    "version": "3.0.0",
+    "hash": "sha512-Owf/y1HmrlyOBJjquoZGD/40WwgLpye20479v4DPQSLP3Mgnwhs53ZtMPAdRTNbe4Ow8ksazw9vB/SbSaf+qWQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Monitor": {
+    "version": "8.0.0",
+    "hash": "sha512-i/tY3ZJqPx8RRh3FqV5VT+5C2BkRtL3uvhW0VmTvfixftwiFg/41MI3+S5mhOD7Iu1GO+awFPYqK5YxDjm5i4w==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.MySql": {
+    "version": "2.0.0",
+    "hash": "sha512-99SltmMLDRzwn68/DZxmVeh8B0v9TYy0Gyt1JbKqxnh031TRXx3dUF8oLsdncZ+pvqnXFYyOOHk9AOhCv9mydg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.NetAppFiles": {
+    "version": "1.4.1",
+    "hash": "sha512-2N74GvDYgjdhAFsoG1sEQWBGJPVI35/icQqSt4Q4b7pufBCTFgNVu8QPuRm4j5hXuXGv0H1u8ykJC8oRXYJvWw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Network": {
+    "version": "8.2.0",
+    "hash": "sha512-ZlC0qRqbSoONyPxfLRNSAmoBt4h7lBeojmeyw8zuGHZybnfOhIH6GaYQ3lie71qfcQb3a2pJ0KI3Azg3ldl1rQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.NetworkCloud": {
+    "version": "3.0.0",
+    "hash": "sha512-4RZcyAfhsIRDuIY3smEnVcgFS82BKvoI1pidonSjv3XlZA2U6whyzSXRJWD1DTrWGaSo1PVU7lMCxcD9wNkUjQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Nginx": {
+    "version": "2.0.0",
+    "hash": "sha512-BdzMwq26NRsIJpoqGwrLbMR/wIOhOyWV3QrN+j40ZoB7vi3LuwYvYh7VzMkSOmemBoJYmSDzYKveQQvEFzD20g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.NotificationHubs": {
+    "version": "1.3.0",
+    "hash": "sha512-Iqa5ecgpMUX2gPIFG9NHcm/BUujuZnyz943sxArwQlNCtZw43tP4shzfwwBy7O4WQ66JM/Tem/Yml3DG4ew8lg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.OperationalInsights": {
+    "version": "3.4.1",
+    "hash": "sha512-7qcbdiKrsZTU6LXMa1918ui+CytiJuWLEcQxkn9pUVX1teMXWxsRMulQDl6T2UjMnzOckOZpVdIdL2yGiDJQHA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Oracle": {
+    "version": "2.0.0",
+    "hash": "sha512-Uu/ZQyi+mzbwK+BTJUQXG1CBaGhXVtG5v7K05xhZmBPIA373YMvEGk0FF4x05jmNuVM9WblgX32lEd1YZBo62A==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.PolicyInsights": {
+    "version": "2.0.0",
+    "hash": "sha512-8QuUZBHG6hCb1JgFBPpBNAR6CwbNv1OL89gwNm5JbotpDORjdwdSWaMuKovEQrN7q+g38P5GAYn0jfCb0HZfGg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.PowerBIEmbedded": {
+    "version": "2.2.0",
+    "hash": "sha512-XHbal0VZ8qbVIhLH5gQGZTPePcdT3ft6msAAmM1FPmNwi7DoiKMhsyDJQpsKDn2bAy+LQXfUM5HOFmYnnZOYVw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.PrivateDns": {
+    "version": "1.3.0",
+    "hash": "sha512-aTscvWbUHRt4l+tpSaXwRpA/IK25OS7OL2EuXPYvFhU0U0fuQ3IgvK3WfHoqdMjQKPD1Mvs9kQMdyJ+bQl+Mdg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.RecoveryServices": {
+    "version": "7.14.1",
+    "hash": "sha512-NR82Yg+N1GiVs8G8nWy74S3zoiUkk/MkrPX/UveEUykFJkarQvr54CSPZW6vXzlsEvoGrryVkR4vrUQ1abBx9w==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.RedisCache": {
+    "version": "1.12.0",
+    "hash": "sha512-lerN+WnD7zaMnfSRt+eHuNMjNEz57P0jShMnCYogUrbfdIMAOPYPAoDklzYwawdHB+Dggalv3juhbioxfyXV9A==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.RedisEnterpriseCache": {
+    "version": "2.0.0",
+    "hash": "sha512-XO9bWwtu8zDpp8KB+t35KKvJ3NWq9J5kAb6moIh6XZRzzIpfdinXtp9oqr8TZM1tkI4VH+037q8sAJFQOrWpMA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Relay": {
+    "version": "3.0.0",
+    "hash": "sha512-tJvYme+7L9cJkYx0RG/WAI9B+nUA/m67ZrcGkSP8f+uIzlmgQRx5NLRnCwG8x89JQTqXX472WpP8HLCS1vhDRQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ResourceGraph": {
+    "version": "1.3.0",
+    "hash": "sha512-M/4EJJ/g6xPyNSZ1PGVj1H+YMi3HR/VxIBx6lXT/gSJ1Wv2R3rqQYqPrX6dixdzm/Px3BUyzEJkBRNsKGRcuGg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ResourceMover": {
+    "version": "2.0.0",
+    "hash": "sha512-pf87lSgm/0qAmQs6qe0FP1w7yr4VlF1yf/FllcXT3T0got8GEXSIbQK5UbG9IsPD7wZNkKtu9XNgMfXvllNjDw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Resources": {
+    "version": "10.2.0",
+    "hash": "sha512-Vy/wXnvgvTkUFFpAMcNbKhbS4r7e1gBBHQDZwtPqmbgqvAJSDo2u/W6j12KKDf2ZOOUJ6DpNFgPjXjUiQcC4lQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Security": {
+    "version": "1.10.0",
+    "hash": "sha512-Qg2Hr8rwgAE/J6HFgzLEJWKguCukrKM6wBm89ADZKTXfhEhWpjN+86DTHnjFBHL28HwBp57OWN9K9JsezPGqdQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.SecurityInsights": {
+    "version": "4.0.0",
+    "hash": "sha512-Bco5KmK6LwQmQDrUGvj9pGfHUErDOWp75r5Ttrty9HH+fU7WaZx5WWIfk8vGE7GBwlsvbbqB+bCQqCy+d9Ys5Q==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ServiceBus": {
+    "version": "4.3.0",
+    "hash": "sha512-NlSAo2dZRGs+ckHsEJDawYxEgXKHQEUP+n9Gyg9/s0CrBP8i5slZHYaboSrW9O18nfGrw9DGcSdPwD1e8vQaCw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.ServiceFabric": {
+    "version": "5.2.0",
+    "hash": "sha512-B7LkGFty/BejjOa7uGyrqxbHiLPHz9O2skCpRGRhU/qzpm39W8zBiZKPcjFmcsPrVvL+u8AsizReHcSqC3uRCQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.SignalR": {
+    "version": "3.0.0",
+    "hash": "sha512-HLIa/VOup1qsmumoukKLu3Hm1MvTPi97BgXg5TXKfRMZclEUHSluWzblO7HJ3mwtIM04czfuhIeu09lXjl6QVQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Sql": {
+    "version": "7.1.0",
+    "hash": "sha512-eV7U3h028/QuhneHz7gPAZBnxiBWPY+OJ36/KcO/EhANmPUTEgyqO6JCdpXq4k6qOq9hM1bCpoaB8k1xcGxQ4A==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.SqlVirtualMachine": {
+    "version": "3.0.0",
+    "hash": "sha512-bHyXmAPiYua1x71Wam53xDWSleP02JE6yRZ84vnH4e61NN0UOxJjEJaZXYWRYmMWUHrMuxq6kFDfgs91RvgkQg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StackHCI": {
+    "version": "3.0.0",
+    "hash": "sha512-v3V8xttPGwYGMu6a3flgEUyhKDTwD4wu4YjF4z78MzhRfW7+rmXnvZKy0AomnK/Ml8EF/EThfjbT2OPWAS2YyA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StackHCIVM": {
+    "version": "2.0.0",
+    "hash": "sha512-1BdXVF7KDcnYrhL974Wz+SlGqI2o/xrHFBQJxP3GwHMEhv5ovCRE052KtcXTn4t4v6eXydlVG38S5IZgegicOQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Storage": {
+    "version": "9.7.2",
+    "hash": "sha512-a23tOstLdKwvNs45jgLiOlPHAjRdciqcXGwUfvS3R8j5/c/b8O9Zc6KSvflUN4Y/aICVhjbOPJKb2OyAoNRg7g==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StorageAction": {
+    "version": "2.0.0",
+    "hash": "sha512-qusn2gKopImFSj1nCyWHo7S57BHOPe7WZ4sxoRNZ7w54dIZ/kXHGcTfbe9PeTbCjzT6YFzm4KkjxfEB5d9WNPQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StorageDiscovery": {
+    "version": "1.0.0",
+    "hash": "sha512-dRBbKd07UoGWsRDpYZ0mWZtF/rgqqVzPba0yIoSCgXqb9kbgSS/8lYu+04/WrYIbruVCJiaVZh2nL9P1n7ItrQ==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StorageMover": {
+    "version": "2.1.0",
+    "hash": "sha512-bM2poJ9JhGQ08v1kuqiC/hJj3ykyVVh76Nz6Qkyp1z7xvaTMTzHmt738koiIaSNYpryajlB86K6nhOu+dTYhJw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StorageSync": {
+    "version": "2.6.0",
+    "hash": "sha512-5m1eFZ6viNhDIH9c7Gvo3uqKeEV3yh8RhTUTaAevy5W0nSarxiJIJKj707TDq6g6HImSQL2fRefNp9zf226YQg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.StreamAnalytics": {
+    "version": "3.0.0",
+    "hash": "sha512-lTAyj3NCxlKp44uJkZ7NJT04BIHNYRnsm2T7vJZUNSeaHOBtgM6dGhX9nyEu41QjbkZQRm5UGtanoSX6A8q1Qg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Support": {
+    "version": "2.1.0",
+    "hash": "sha512-VSX9DuxXcPofnbBI7ZTGDaIfIzKdOdhG9xafPxZDphU4QSk1/1ZyFR1zcrZOsUB26B7zrGeIPx9vWkYtdAA3zg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Synapse": {
+    "version": "3.3.0",
+    "hash": "sha512-kSjRt8CzaRTIo3I/PC0mbXPZLBH4J1hGlT+gypwN4UlAIJw/fkRSZD2syJe7x0eRegGt/eLdIS7oVmVx1049mg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.TrafficManager": {
+    "version": "1.4.0",
+    "hash": "sha512-cEovGoTFrVj5VjdBA/4LhsPBtjCK2iYn10coG5B7jTEJsGUobNp1HhsfN/eyLSGpG+OV+/OOViZQhvbWm4LiPA==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Websites": {
+    "version": "4.1.0",
+    "hash": "sha512-G3byJlMWB1VEaZ4IbJrg7xvGl8pYQigGAs160u68vZmruhCCh1h5hslGgkVWGKHaNTBX6cUT13IwU8uqUl9hIg==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  },
+  "Az.Workloads": {
+    "version": "2.0.0",
+    "hash": "sha512-NFjR7fLVY65B85GdZQJJK+SqhFxkCdEmLNwmEabWUyFxa1IfRqFJhz/qDDl7E5k0OOfrOVTnLh5CYWvsUyCrFw==",
+    "dependencies": {
+      "Az.Accounts": "5.5.3"
+    }
+  }
+}

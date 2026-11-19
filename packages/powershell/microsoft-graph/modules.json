@@ -1,0 +1,318 @@
+{
+  "Microsoft.Graph": {
+    "version": "2.40.0",
+    "hash": "sha512-MzzlRNSWnOmXqrWbV+AW61eLvtML8w0QZLKxQDkfu9UHP13nwzqo/ag6O87DsTrXq10TBkxtJS6dbwOyC3bW3g==",
+    "dependencies": {
+      "Microsoft.Graph.Applications": "2.40.0",
+      "Microsoft.Graph.Authentication": "2.40.0",
+      "Microsoft.Graph.BackupRestore": "2.40.0",
+      "Microsoft.Graph.Bookings": "2.40.0",
+      "Microsoft.Graph.Calendar": "2.40.0",
+      "Microsoft.Graph.ChangeNotifications": "2.40.0",
+      "Microsoft.Graph.CloudCommunications": "2.40.0",
+      "Microsoft.Graph.Compliance": "2.40.0",
+      "Microsoft.Graph.ConfigurationManagement": "2.40.0",
+      "Microsoft.Graph.CrossDeviceExperiences": "2.40.0",
+      "Microsoft.Graph.DeviceManagement": "2.40.0",
+      "Microsoft.Graph.DeviceManagement.Administration": "2.40.0",
+      "Microsoft.Graph.DeviceManagement.Enrollment": "2.40.0",
+      "Microsoft.Graph.DeviceManagement.Functions": "2.40.0",
+      "Microsoft.Graph.Devices.CloudPrint": "2.40.0",
+      "Microsoft.Graph.Devices.CorporateManagement": "2.40.0",
+      "Microsoft.Graph.Devices.ServiceAnnouncement": "2.40.0",
+      "Microsoft.Graph.DirectoryObjects": "2.40.0",
+      "Microsoft.Graph.Education": "2.40.0",
+      "Microsoft.Graph.Files": "2.40.0",
+      "Microsoft.Graph.Groups": "2.40.0",
+      "Microsoft.Graph.Identity.DirectoryManagement": "2.40.0",
+      "Microsoft.Graph.Identity.Governance": "2.40.0",
+      "Microsoft.Graph.Identity.Partner": "2.40.0",
+      "Microsoft.Graph.Identity.SignIns": "2.40.0",
+      "Microsoft.Graph.Mail": "2.40.0",
+      "Microsoft.Graph.Notes": "2.40.0",
+      "Microsoft.Graph.People": "2.40.0",
+      "Microsoft.Graph.PersonalContacts": "2.40.0",
+      "Microsoft.Graph.Planner": "2.40.0",
+      "Microsoft.Graph.Reports": "2.40.0",
+      "Microsoft.Graph.SchemaExtensions": "2.40.0",
+      "Microsoft.Graph.Search": "2.40.0",
+      "Microsoft.Graph.Security": "2.40.0",
+      "Microsoft.Graph.Sites": "2.40.0",
+      "Microsoft.Graph.Teams": "2.40.0",
+      "Microsoft.Graph.Users": "2.40.0",
+      "Microsoft.Graph.Users.Actions": "2.40.0",
+      "Microsoft.Graph.Users.Functions": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Applications": {
+    "version": "2.40.0",
+    "hash": "sha512-DIzf7fDnNp8YNMsk4HxiREfZCaHMsqbWu3O56fCgfH7BEtmtpEN6CkCK5SMMShf3xd1I3HFtDg3xVEdy3qaz1Q==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Authentication": {
+    "version": "2.40.0",
+    "hash": "sha512-KRz96BQW/MzsMTALLMPM/Ao0e3KKkaez7jopYp24tRI0cqvnAfmwXvXhBL8011cDI6cyekN2gVcTE+gTu0yQKQ==",
+    "dependencies": {}
+  },
+  "Microsoft.Graph.BackupRestore": {
+    "version": "2.40.0",
+    "hash": "sha512-Exjus4SBlhcr3CvUv5QHYs/DQZ6f3GOwVE6lbYniHRu5Q9g3uLPnHe0K0WFnCb4JGj7EXCx1XGy6/u+oiVapsA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Bookings": {
+    "version": "2.40.0",
+    "hash": "sha512-cca5Djdz3fStV1p0JflNuMLHyCgu44wFpLf4fMRa4xzZNrpxKZzL31/EvptGVOf6RHJznExl6mze4DlQqL6uoQ==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Calendar": {
+    "version": "2.40.0",
+    "hash": "sha512-UTfbsP4thWMa7d9t9ReBjdEJsxS08uYZeapfHvzam1fvCxLgQ55p1oDeQ7qeoU61P2canNsjjIa+MyZQoPYMZg==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.ChangeNotifications": {
+    "version": "2.40.0",
+    "hash": "sha512-Xhtk4MFY9bvvIZXKt/+CuW/P5TeTq6YH/K5JFQRySaDeabpf2Z5yp8dZO4i/SOcQQ2rVqkE631frlLG95JwSNw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.CloudCommunications": {
+    "version": "2.40.0",
+    "hash": "sha512-yj+t5SJ5sHi75HEkEPFZCjI5cgYItDiXF4JG/ePsPs5w1hFjJuznk1/n1VA+7yzRqf2JXiY+oB/LAvjU5mhgVg==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Compliance": {
+    "version": "2.40.0",
+    "hash": "sha512-o75u0QbGI9m28nrYHMagAICmcmk0HDeoevBtBpNlmUg2pLypHPhyTfCLfy2nGsqsEYR3OLRJt+1Mz5Y3H+Mejw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.ConfigurationManagement": {
+    "version": "2.40.0",
+    "hash": "sha512-Nv0wNw4vYytLH6BXYHExL3GZvb5nWOTV5jdxDTwzgiFj4MIq8aH47ELwfJrNPiIfIOSid7Wiluub0SRF+yDYFw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.CrossDeviceExperiences": {
+    "version": "2.40.0",
+    "hash": "sha512-tTRpnCKbum5GCjyUfbsZk5PTFKxqPrncYfbyV4RQaens6MaytdZc1VC15+mm15nb2WTW3hB7O7v9hTcL3bjw2g==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.DeviceManagement": {
+    "version": "2.40.0",
+    "hash": "sha512-1jas/cq2gX3Vm0ip+p7w5wOA6JMhBfdrr3hXeC/moZ9Gort7D5wq+st05m6hgQ6F1zCajPG7/MwuWoGOcfnyGQ==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.DeviceManagement.Administration": {
+    "version": "2.40.0",
+    "hash": "sha512-ofylkNTzjAOzQkiS6etTt0WgOLwkXN016qflIXxFY+CLUH3DIYDe+WfeTavO6rcKjBjRCXVyi0vepHJcOcZuvA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.DeviceManagement.Enrollment": {
+    "version": "2.40.0",
+    "hash": "sha512-8VuiK2qKzvk57UigYPwGk/dGb2IbUtrGZGXFQSeqnAZJUvklk6ZEKdke4gJtxkHdVQ5diZdHli3Wlh67qhCYwQ==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.DeviceManagement.Functions": {
+    "version": "2.40.0",
+    "hash": "sha512-YdXcVj6l2N6kXgviCjznIi11hZ+shrBynld6g988i0caVfwbCNy4KUkE++NKLH+exop1Gi3+3qSbakUF3+qwPw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Devices.CloudPrint": {
+    "version": "2.40.0",
+    "hash": "sha512-abspOHaGP8LnPKXpSP0dEn3OMwoI87MEu7y8ngfk6I3zkmho2qswPLHFpkCN24xhmmJaSIZLQIvne1m4aJznow==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Devices.CorporateManagement": {
+    "version": "2.40.0",
+    "hash": "sha512-ev+JRyKcyNavQkNqsjdmB4/1kU4bg6Nel3zv8hJAE4PmnQVmxMJo2nf4jNrEvLvCfY20uYJr9hvyESkk1D2jkw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Devices.ServiceAnnouncement": {
+    "version": "2.40.0",
+    "hash": "sha512-cgA/mh5skcCg+J4QuBCdYvp8b4frycCTZfmPR+Z2zweYG+CO1wmw9OdguWv+dM8zJfYN3Fp6onWLdZVCHSXh1Q==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.DirectoryObjects": {
+    "version": "2.40.0",
+    "hash": "sha512-Y5CsPKWQCTkwOaEK85HxnJOxM5ff2Tjj+hc5uB9RL9LyHz8HmxIFfcxQsWu3lJIy0XjNr4YKoGvu5uT9glTeXA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Education": {
+    "version": "2.40.0",
+    "hash": "sha512-/7pm0sONicE8crQxE5xbVXSp7J5GWuqX5XEsOA/ZBXD0eA/osOJmutQBzfiGKjkJSrQbf9TMvKJH0wYzXLf8GA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Files": {
+    "version": "2.40.0",
+    "hash": "sha512-DuQNrmX/emHc7h74qIYB86XhZwQ9l7axAc6Sy+q+aU/dRQtMC13wz1fLQhOwjI99QRmTcfd3RKiZv+bAYKnm9g==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Groups": {
+    "version": "2.40.0",
+    "hash": "sha512-y8IJiXZilUF7AfU4pXJQ6Hkl6oDtKUHTXvDA9KmkQxOAxAUbxs6ICxDCEt6qIqM27QrlitmNRw/x5AG9IExF5A==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Identity.DirectoryManagement": {
+    "version": "2.40.0",
+    "hash": "sha512-8i81qQfYN8TiaBfVAelWLUE6ZIZUNcV3nKyQ95uMyCKaWbzjt06L+Swm1Z78jaUg/RC6gHBz2b6z9P33aiRgXA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Identity.Governance": {
+    "version": "2.40.0",
+    "hash": "sha512-C/BTQY1pGidqPgFRSRQtlYxD+NRz7IVz0IaAW+mx/PTt/vRpoVfyOsWa1nAXq/OmftQFfqyPuiEZmijPvLWWyw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Identity.Partner": {
+    "version": "2.40.0",
+    "hash": "sha512-SSwxeWqHN3RGfdBC+KNHvDC47o3plGfkkPX/VgU1z/FxRdZg1X8Np4anu7cTkjK2TSi8DuCFHP9HKXLzvRXT0w==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Identity.SignIns": {
+    "version": "2.40.0",
+    "hash": "sha512-gB1hqw5e/lsVnGHsfdjIgLpOJr81bjUib1IuVwnG9EAg+vqrDtVNbX8/+Xp0WYWWiRXGe+YHtzMJdzwq8l5HUA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Mail": {
+    "version": "2.40.0",
+    "hash": "sha512-0Uf1zG9o3qhhn/Nc8LGngnAlPbB3ciSi4U00QUEhkbij2Pitc1lTTHPjRZf7x0RklZ5pGk56KiYVzhSznfn3qg==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Notes": {
+    "version": "2.40.0",
+    "hash": "sha512-PcS8t5vwV5/gUE00iGYwg80zrMgUmu9qCPwvzoeb/DKq2dJMVVBu4NYKGeFbq+zSm4q2S5OCDzppepKt8FpzVg==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.People": {
+    "version": "2.40.0",
+    "hash": "sha512-US1mpRBqS7ULOUVRr+O4QXJtL5U8O1gV+xiedTnklDglvk45uLuTer1K0RTQ/8+Ccnpl36Vq/fqiBtTogZPa1g==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.PersonalContacts": {
+    "version": "2.40.0",
+    "hash": "sha512-JoKEq+JLfoMklvDaOWrGy5aV9J1Pm96CRDSlO7viH0kkAPQJS7g+u2ZSk8fYvnBZ0HANmNt6ftoFwA1GxmVDyA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Planner": {
+    "version": "2.40.0",
+    "hash": "sha512-/LLgx1z3Mhu8jyKLPtNt4xLfGEfuQmsIMU7E+mT2EUax/TCr73MDx2cweNo5ygFvSx8gLjJ2aUKmuNbz9NiiFQ==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Reports": {
+    "version": "2.40.0",
+    "hash": "sha512-K/NEjoMmtiDJaH0w/pIYqkHTC4/68odkudRYIJArrQIBl/spolHA4JbNkzAsEulno4h+OkXL3GfmnaOvTlNE6A==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.SchemaExtensions": {
+    "version": "2.40.0",
+    "hash": "sha512-dm5I5fe5sAQIX0MJeSG3FCTVDyQDE9lX4MVPxYKqPnujiO0Lgsz6qMFsgQnkIZMSCBJvK7JJnYZs787DHov1iw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Search": {
+    "version": "2.40.0",
+    "hash": "sha512-Vn5OfT+5PTmdalHd2YDPa6IBA7OVX7B8juxtuTMRiH7DVIrkCRhuWuzPGUEAg8aSiJBIY5LNO5u8H6iTsRSecw==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Security": {
+    "version": "2.40.0",
+    "hash": "sha512-z6s32eSW30eWGOJgC5yd+fP6T3Ml33+LHZHdRw+9KySoTIi9lDtuSi34g6JVN+mGXpEv+sTuCxawcmOE/gYoew==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Sites": {
+    "version": "2.40.0",
+    "hash": "sha512-Ku3op7i+fmKn5m5qllQ0VrBj1kbD3OlPlhhloHC0T+NIOyACDlE7BLGiS/Dmj8QoNorpLerT6BJZgZjSkiwx8Q==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Teams": {
+    "version": "2.40.0",
+    "hash": "sha512-Eixkq71QHGRbhnwkiDcm0QP2JAnUZJnVxc6/hJijlESIR+B7OkEE1NKpCh7QSkyiXCzniFLEElHPV0xMksqbtA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Users": {
+    "version": "2.40.0",
+    "hash": "sha512-+S/LcwikPDkVyz7I8/pdmaEgH1GeA7s562FiAPmViiTtqN5bPL4MIWEaNWh6n4Da/DwGvYQpNLKgL+MTHE3IWA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Users.Actions": {
+    "version": "2.40.0",
+    "hash": "sha512-AbHgzVs4NUlKQISYKr0p4VBGXaav8lZGvrij8gy3BE52mjLpYO4iytXraok87u8p1bFMsXG+IezjDx+e/p0p8A==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  },
+  "Microsoft.Graph.Users.Functions": {
+    "version": "2.40.0",
+    "hash": "sha512-9Qdc5dSblbqwDrmpZbOIH5G5VA16YttyceqJ5XYqYf6HjtXtXDYgDgStvKtUJfd+CzF44+xo6yyRmFd9kWUmHA==",
+    "dependencies": {
+      "Microsoft.Graph.Authentication": "2.40.0"
+    }
+  }
+}
